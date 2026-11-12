@@ -1,0 +1,9 @@
+{
+  "name": "jinhua-club-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "多人联机炸金花网站（仅虚拟筹码）",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "license": "UNLICENSED"
+}
