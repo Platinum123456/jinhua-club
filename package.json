@@ -1,9 +1,10 @@
 {
   "name": "jinhua-club-online",
-  "version": "1.0.0",
+  "version": "8.0.0",
   "private": true,
-  "description": "多人联机炸金花网站（仅虚拟筹码）",
+  "description": "金花 CLUB V8 多人联机虚拟筹码纸牌游戏",
   "engines": { "node": ">=20" },
-  "scripts": { "start": "node server.js", "test": "node --test" },
+  "scripts": { "start": "node server.js", "test": "node test/v8.test.js" },
+  "dependencies": { "pg": "^8.13.1" },
   "license": "UNLICENSED"
 }
